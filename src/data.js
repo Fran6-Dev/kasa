@@ -617,3 +617,8 @@ export const data = [
         ]
     }
 ]
+
+// export const getDataById = async (id) => {
+//     const response = data();
+//     return response.filter(location => location.id === id)
+// }
