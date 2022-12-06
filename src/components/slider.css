@@ -1,6 +1,6 @@
 .slider-image {
     max-width: 1240px;
     max-height: 510px;
-    border-radius: 20px;
-    object-fit: contain;
+    border-radius: 10px;
+    object-fit: scale-down;
 }

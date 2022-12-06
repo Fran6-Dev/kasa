@@ -1,8 +1,9 @@
 import React from 'react'
 import Slider from '../components/Slider'
 import Navbar from '../components/Navbar'
-import { useParams } from 'react-router-dom';
-import { data } from '../data';
+import Description from '../components/Description';
+import Infos from '../components/Infos';
+import Footer from '../components/Footer';
 
 
 
@@ -14,7 +15,10 @@ const Housing = () => {
             <div className='mx-8'>
                 <Navbar />
                 <Slider />
+                <Description />
+                <Infos />
             </div>
+            <Footer />
         </>
     )
 }

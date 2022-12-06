@@ -15,12 +15,11 @@ const Slider = () => {
 
         let imageSlider = detailsLogement.pictures;
 
-        console.log(imageSlider)
 
         return (
             <>
                 <Carousel className='my-10'>
-                    {imageSlider.map((image) => <img src={image} alt={image} key={image} className='slider-image' />)}
+                    {imageSlider.map((image, index) => <img src={image} alt={image} key={index} className='slider-image' />)}
 
                 </Carousel>
             </>

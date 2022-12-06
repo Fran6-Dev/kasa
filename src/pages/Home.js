@@ -11,8 +11,8 @@ const Home = () => {
                 <Navbar />
                 <Background />
                 <Card />
-                <Footer />
             </div>
+            <Footer />
         </>
     )
 }
