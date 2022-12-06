@@ -11,10 +11,10 @@ const Navbar = () => {
                 <div>
                     <ul className='flex'>
                         <Link to='/'>
-                            <button className='text-red-500 mx-6 focus:outline-none focus:underline lg:text-4xl'>Accueil</button>
+                            <button className='text-red-500 mx-6 focus:outline-none focus:underline text-sm lg:text-4xl'>Accueil</button>
                         </Link>
                         <Link to='/about'>
-                            <button className='text-red-500 focus:outline-none focus:underline lg:text-4xl'> A Propos</button>
+                            <button className='text-red-500 focus:outline-none focus:underline text-sm w-16 lg:text-4xl lg:w-full'> A Propos</button>
                         </Link>
                     </ul>
                 </div>

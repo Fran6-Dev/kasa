@@ -9,7 +9,7 @@ const IsAbout = () => {
 
     return (
         <>
-            <div className='flex justify-center items-center my-8 bg-[url("https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60")] h-60 w-full bg-cover bg-center rounded-lg' >
+            <div className='flex justify-center items-center my-8 bg-[url("https://images.unsplash.com/photo-1565118531796-763e5082d113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")] h-60 w-full bg-cover bg-center rounded-lg' >
             </div>
             <div className='mb-6 rounded'>
                 <div className='bg-red-500 flex justify-between px-2 rounded' onClick={() => setFiability(!fiability)}>
